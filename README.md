@@ -41,7 +41,7 @@ $$F(f) = \frac{1}{\sqrt{1+\varepsilon^2 T_n(f/f_0)^2}}$$
 Chebychev type2:
 $$F(f) = \sqrt{\frac{\varepsilon^2 T_n(f/f_0)^2}{1+\varepsilon^2 T_n(f/f_0)^2}}$$
 
-$T_n(f/f_0)$ is the $n$th order Chebychev polynomial, $\varepsilon$ is the ripple factor. The Chebychev polynomials are calculated by the recurrence relation:
+$T_n(f/f_0)$ is the $n$ th order Chebychev polynomial, $\varepsilon$ is the ripple factor. The Chebychev polynomials are calculated by the recurrence relation:
 $$T_0(x) = 1$$
 $$T_1(x) = x$$
 $$T_{n+1} = 2x T_n(x) - T_{n-1}(x)$$
