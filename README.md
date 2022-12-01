@@ -10,7 +10,7 @@ The filters $F(\omega)$ are designed in the frequency domain and applied to the 
 
 $$ Y(\omega) = F(\omega) X(\omega)$$
 
-here $Y(\omega)$ is the Fourier transform of the filtered pulse and $X(\omega)$ is that of the unfiltered pulse. The filtered pulses can then be returned by and inverse transform.
+here $Y(\omega)$ is the Fourier transform of the filtered pulse and $X(\omega)$ is that of the unfiltered pulse. The filtered pulses can then be returned by an inverse transform.
 
 ## The filters
 note: in the following I use the frequency $f=\omega/2\pi$ and $f_0$ is the frequency cutoff, $n$ is the filter order
